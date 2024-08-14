@@ -1,4 +1,4 @@
-# ctk_color
+# CTK_Color
 ## Introduction
 the library that will be used with CustomTkinter for coloring text in textbox .
 

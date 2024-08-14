@@ -2,6 +2,11 @@
 ## Introduction
 the library that will be used with CustomTkinter for coloring text in textbox .
 
+## syntax
+
+<code>CTK_Color(text_box name,text,tag,Color to be applied)
+</code>
+
 ## use case
 this code contains <code>demo.py</code> file in which the code 
 <pre styles="coding">
@@ -24,5 +29,5 @@ win.mainloop()
 ## output 
 
 <p align="center">
-<img src="image.png">
+<img src="image.png" width=350>
 </p>

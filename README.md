@@ -9,6 +9,7 @@ the library that will be used with CustomTkinter for coloring text in textbox .
 
 ## use case
 this code contains <code>demo.py</code> file in which the code 
+<p align="center">
 <pre styles="coding">
 import CTK_Color
 import customtkinter as ctk
@@ -25,6 +26,7 @@ CTK_Color(text,"boxer","baler","green").auto()
 win.mainloop()
 
 </pre>
+</p>
 
 ## output 
 

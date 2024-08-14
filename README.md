@@ -23,4 +23,6 @@ win.mainloop()
 
 ## output 
 
+<p align="center">
 <img src="out.jpg">
+</p>

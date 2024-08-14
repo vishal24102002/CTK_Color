@@ -20,3 +20,7 @@ CTK_Color(text,"boxer","baler","green").auto()
 win.mainloop()
 
 </pre>
+
+## output 
+
+<img src="out.jpg">

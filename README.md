@@ -1,10 +1,10 @@
 # CTK_Color
 
 ## Introduction
-the library that will be used with CustomTkinter for coloring text in textbox .
+The library that will be used with CustomTkinter for coloring/highlighting particular text/line in textbox. It can be used for various other options and for creating inovative projects using this library
 
 ## Syntax for object  creation
-<p align="center"><code>CTK_Color(text_box name,text,tag,Color to be applied)</code></p>
+<p align="center"><pre><code>CTK_Color(text_box name,text,tag,Color to be applied)</code></pre></p>
 
 ## Use-Case
 This code contains <code>demo.py</code> file in which the code 

@@ -3,10 +3,10 @@
 ## Introduction
 the library that will be used with CustomTkinter for coloring text in textbox .
 
-## syntax
-<code>CTK_Color(text_box name,text,tag,Color to be applied)</code>
+## Syntax for object  creation
+<p align="center"><code>CTK_Color(text_box name,text,tag,Color to be applied)</code></p>
 
-## use-case
+## Use-Case
 This code contains <code>demo.py</code> file in which the code 
 
 ### For Highlighting particular sentence

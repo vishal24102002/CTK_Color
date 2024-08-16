@@ -25,7 +25,8 @@ win.mainloop()
 <p align="center">
 <img src="https://github.com/user-attachments/assets/371899cf-61e5-414b-81ee-1f68d26afd60" width=750/>
 </p>
-### For Highlighting particular words in textbox 
+
+#### For Highlighting particular words in textbox
 #### Code
 <pre lang="sh">
 import CTK_Color

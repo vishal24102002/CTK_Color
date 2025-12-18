@@ -1,7 +1,7 @@
 import customtkinter as ctk
 import tkinter as tk
 
-class CTK_Color():
+class CTk_Color():
     def __init__(self,text_box,text,tag,color,end="none"):
         self.text_box=text_box
         self.text=text

@@ -6,7 +6,7 @@ long_description = (here / "README.md").read_text(encoding="utf-8")
 
 setup(
     name="CTK_Color",
-    version="0.0.1",
+    version="0.0.2",
     description="A customizable color tool for CTkinter Textboxes",
     author="Vishal Sharma",
     author_email="vishalsharma659615@gmail.com",
@@ -18,6 +18,8 @@ setup(
     classifiers=[  # ✅ Optional classifiers for PyPI & users
         "Development Status :: 3 - Alpha",  # or "4 - Beta", "5 - Production/Stable"
         "Intended Audience :: Developers",
+        "Intended Audience :: Education",
+        "Operating System :: OS Independent",
         "Topic :: Software Development :: Libraries :: Python Modules",
         "License :: OSI Approved :: MIT License"
     ],

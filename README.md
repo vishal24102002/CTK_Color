@@ -13,13 +13,13 @@ This code contains <code>demo.py</code> file in which the code
 It provide color to the text in textbox untill you press enter or specify the end of the sentence in the code 
 #### Code
 <pre lang="sh">
-from CTK_Color import CTk_Color
+from CTK_Color import CTK_Color
 import customtkinter as ctk
 
 win=ctk.CTk()
 text=ctk.CTkTextbox(win)
 text.pack()
-CTk_Color(text,"box","big","red").for_line()
+CTK_Color(text,"box","big","red").for_line()
 win.mainloop()
 </pre>
 
@@ -32,17 +32,16 @@ win.mainloop()
 
 #### Code
 <pre lang="sh">
-from CTK_Color import CTk_Color
+from CTK_Color import CTK_Color
 import customtkinter as ctk
 
 win=ctk.CTk()
-
 text=ctk.CTkTextbox(win)
 text.pack()
-CTk_Color(text,"for","bal","red").for_word()
-CTk_Color(text,"print","edit","orange").for_word()
-CTk_Color(text,"while","gang","blue").for_word()
-CTk_Color(text,"boxer","baler","green").for_word()
+CTK_Color(text,"for","bal","red").for_word()
+CTK_Color(text,"print","edit","orange").for_word()
+CTK_Color(text,"while","gang","blue").for_word()
+CTK_Color(text,"boxer","baler","green").for_word()
 win.mainloop()
 </pre>
 

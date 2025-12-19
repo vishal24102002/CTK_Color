@@ -1,9 +1,21 @@
 # CTK_Color
 
+
+[![PyPI](https://img.shields.io/pypi/v/CTK-Color.svg)](https://pypi.org/project/CTK-Color/)  [![Python Versions](https://img.shields.io/pypi/pyversions/YOUR_PACKAGE_NAME.svg)](https://pypi.org/project/CTK-Color/)    [![License](https://img.shields.io/pypi/l/CTK-Color.svg)](https://opensource.org/licenses/MIT) ![Status](https://img.shields.io/pypi/status/CTK-Color.svg)
+
+<p align="right"><kbd>
+<img src="assets/CTK_Color.png" alt="CTK_Color" height=100px >
+</kbd></p>
+
 ## Introduction
 The library that will be used with CustomTkinter for coloring/highlighting particular text/line in textbox. It can be used for various other options and for creating inovative projects using this library
 
-## Syntax for object  creation
+### Installation
+```python
+pip install CTK-Color
+```
+
+### Syntax for object  creation
 <p align="center"><pre><code>CTK_Color(text_box name,text,tag,Color to be applied)</code></pre></p>
 
 ## Use-Case
@@ -49,3 +61,5 @@ win.mainloop()
 <p align="center">
 <img src="https://github.com/user-attachments/assets/c0b27e21-c605-45c5-82fb-9a67ca66ca57" width=750/>
 </p>
+
+

@@ -6,5 +6,5 @@ build/
 
 # file to prevent from push
 __pycache__
-.github
+# .github
 

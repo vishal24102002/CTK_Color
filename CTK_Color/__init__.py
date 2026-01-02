@@ -12,7 +12,7 @@ class CTK_Color():
 
     def coloring_word(self, event):
         start_index = "1.0"
-        while True: 
+        while True:
             start_index = self.text_box.search(self.text, start_index, self.text_box.index(tk.INSERT))
             if not start_index:
                 break
@@ -38,5 +38,4 @@ class CTK_Color():
             self.text_box.tag_add(self.tag, start_index, ending_index)
             start_index = ending_index
             self.text_box.tag_config(self.tag, foreground=self.color)
-
-
+            

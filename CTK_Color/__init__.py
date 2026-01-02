@@ -38,4 +38,3 @@ class CTK_Color():
             self.text_box.tag_add(self.tag, start_index, ending_index)
             start_index = ending_index
             self.text_box.tag_config(self.tag, foreground=self.color)
-            

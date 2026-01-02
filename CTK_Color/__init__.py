@@ -1,6 +1,6 @@
 import tkinter as tk
 class CTK_Color():
-    def __init__(self, text_box, text, tag, color, end = "none"): 
+    def __init__(self, text_box, text, tag, color, end="none"):
         self.text_box = text_box
         self.text = text
         self.tag = tag
@@ -38,4 +38,5 @@ class CTK_Color():
             self.text_box.tag_add(self.tag, start_index, ending_index)
             start_index = ending_index
             self.text_box.tag_config(self.tag, foreground=self.color)
+
 

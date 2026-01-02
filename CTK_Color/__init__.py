@@ -1,7 +1,6 @@
 import tkinter as tk
-
 class CTK_Color():
-    def __init__(self, text_box, text,tag, color, end="none"):
+    def __init__(self, text_box, text, tag, color, end = "none"): 
         self.text_box = text_box
         self.text = text
         self.tag = tag
@@ -9,11 +8,11 @@ class CTK_Color():
         self.end = end
 
     def for_word(self):
-        self.text_box.bind("<KeyPress>", lambda event:self.coloring_word(event))
+        self.text_box.bind("<KeyPress>", lambda event: self.coloring_word(event))
 
     def coloring_word(self, event):
         start_index = "1.0"
-        while True:
+        while True: 
             start_index = self.text_box.search(self.text, start_index, self.text_box.index(tk.INSERT))
             if not start_index:
                 break
@@ -23,7 +22,7 @@ class CTK_Color():
             self.text_box.tag_config(self.tag, foreground=self.color)
 
     def for_line(self):
-        self.text_box.bind("<KeyPress>", lambda event:self.coloring_line(event))
+        self.text_box.bind("<KeyPress>", lambda event: self.coloring_line(event))
 
     def coloring_line(self, event):
         start_index = "1.0"
@@ -39,3 +38,4 @@ class CTK_Color():
             self.text_box.tag_add(self.tag, start_index, ending_index)
             start_index = ending_index
             self.text_box.tag_config(self.tag, foreground=self.color)
+

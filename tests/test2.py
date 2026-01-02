@@ -9,3 +9,4 @@ CTK_Color(text, "print", "edit", "orange").for_word()
 CTK_Color(text, "while", "gang", "blue").for_word()
 CTK_Color(text, "boxer", "baler", "green").for_word()
 win.mainloop()
+

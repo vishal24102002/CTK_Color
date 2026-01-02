@@ -1,9 +1,18 @@
 # CTK_Color
 
-## Introduction
-The library that will be used with CustomTkinter for coloring/highlighting particular text/line in textbox. It can be used for various other options and for creating inovative projects using this library
 
-## Syntax for object  creation
+[![PyPI](https://img.shields.io/pypi/v/CTK-Color.svg)](https://pypi.org/project/CTK-Color/)  [![Python Versions](https://img.shields.io/pypi/pyversions/YOUR_PACKAGE_NAME.svg)](https://pypi.org/project/CTK-Color/)    [![License](https://img.shields.io/pypi/l/CTK-Color.svg)](https://opensource.org/licenses/MIT) ![Status](https://img.shields.io/pypi/status/CTK-Color.svg)
+
+## Introduction
+<img src="assets/CTK_Color.png" alt="CTK_Color" height=100px align="right" >
+The library that will be used with CustomTkinter for coloring/highlighting particular text/line in textbox. It can be used for various other options and for creating inovative projects using this library where the the user input text is needed to be highlighted in order to let user know.
+
+### Installation
+```python
+pip install CTK-Color
+```
+
+### Syntax for object  creation
 <p align="center"><pre><code>CTK_Color(text_box name,text,tag,Color to be applied)</code></pre></p>
 
 ## Use-Case
@@ -13,7 +22,7 @@ This code contains <code>demo.py</code> file in which the code
 It provide color to the text in textbox untill you press enter or specify the end of the sentence in the code 
 #### Code
 <pre lang="sh">
-import CTK_Color
+from CTK_Color import CTK_Color
 import customtkinter as ctk
 
 win=ctk.CTk()
@@ -32,17 +41,16 @@ win.mainloop()
 
 #### Code
 <pre lang="sh">
-import CTK_Color
+from CTK_Color import CTK_Color
 import customtkinter as ctk
 
 win=ctk.CTk()
-
 text=ctk.CTkTextbox(win)
 text.pack()
-CTK_Color(text,"for","bal","red").auto()
-CTK_Color(text,"print","edit","orange").auto()
-CTK_Color(text,"while","gang","blue").auto()
-CTK_Color(text,"boxer","baler","green").auto()
+CTK_Color(text,"for","bal","red").for_word()
+CTK_Color(text,"print","edit","orange").for_word()
+CTK_Color(text,"while","gang","blue").for_word()
+CTK_Color(text,"boxer","baler","green").for_word()
 win.mainloop()
 </pre>
 
@@ -50,3 +58,5 @@ win.mainloop()
 <p align="center">
 <img src="https://github.com/user-attachments/assets/c0b27e21-c605-45c5-82fb-9a67ca66ca57" width=750/>
 </p>
+
+
